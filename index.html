@@ -13,27 +13,27 @@
                 
             </div>
             <div>
-                <h3>GUEST</h3>
+                <h3>AWAY</h3>
                 
             </div>
         </div>
 
         <div class="score-container">
-            <h3 class="score">0</h3>
-            <h3 class="score">0</h3>
+            <h3 id="home-score" class="score"></h3>
+            <h3 id="away-score" class="score"></h3>
         </div>
 
         <div class="score-increment-container">
             <div>
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <button onclick="incrementScore(1, 'home')">+1</button>
+                <button onclick="incrementScore(2, 'home')">+2</button>
+                <button onclick="incrementScore(3, 'home')">+3</button>
             </div>
 
             <div>
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <button onclick="incrementScore(1, 'away')">+1</button>
+                <button onclick="incrementScore(2, 'away')">+2</button>
+                <button onclick="incrementScore(3, 'away')">+3</button>
             </div>        
         </div>
 
