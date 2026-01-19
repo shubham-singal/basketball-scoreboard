@@ -1,8 +1,8 @@
 let homeScore = 0;
 let awayScore = 0;
 
-let homeScoreElem = document.getElementById("home-score");
-let awayScoreElem = document.getElementById("away-score");
+const homeScoreElem = document.getElementById("home-score");
+const awayScoreElem = document.getElementById("away-score");
 
 homeScoreElem.textContent = homeScore;
 awayScoreElem.textContent = awayScore;
@@ -16,4 +16,11 @@ function incrementScore(score, team) {
         awayScore += score;
         awayScoreElem.textContent = awayScore;
     }
+}
+
+function resetScores() {
+    homeScore = 0;
+    awayScore = 0;
+    homeScoreElem.textContent = homeScore;
+    awayScoreElem.textContent = awayScore;
 }
