@@ -29,3 +29,25 @@ h3 {
     width: 10%;
     padding: 20px;
 }
+
+.score-increment-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #1B2340;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    margin: 40px 6px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid #EEEEEE;
+}
