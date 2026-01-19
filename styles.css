@@ -1,0 +1,31 @@
+body {
+    background-color: #1B2340;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-top: 90px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 80px;
+    color: #f94f6d;
+    margin: auto;
+    background-color: #080001;
+    text-align: center;
+    width: 10%;
+    padding: 20px;
+}
